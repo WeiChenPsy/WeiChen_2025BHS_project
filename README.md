@@ -23,7 +23,7 @@ summary: "This project examines how language-related brain regions connect with 
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: ""
+image: "cover.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -50,7 +50,7 @@ The "WeiChen_2025BHS_project" project will rely on the following technologies:
 
 ### Data
 
-This project uses the SMN4Lang dataset(https://openneuro.org/datasets/ds004078), which includes both task-based and resting-state fMRI data. During the task-based sessions, participants listened to spoken Mandarin narratives while their brain responses were recorded using fMRI. The resting-state scans were collected in the absence of external stimuli to examine the brain's intrinsic functional organization.
+This project uses the SMN4Lang dataset (https://openneuro.org/datasets/ds004078), which includes both task-based and resting-state fMRI data. During the task-based sessions, participants listened to spoken Mandarin narratives while their brain responses were recorded using fMRI. The resting-state scans were collected in the absence of external stimuli to examine the brain's intrinsic functional organization.
 
 The dataset provides preprocessed fMRI images along with corresponding behavioral and demographic data, enabling researchers to investigate the interactions between language-related brain regions and large-scale resting-state networks, and to explore individual differences in language comprehension performance.
 
