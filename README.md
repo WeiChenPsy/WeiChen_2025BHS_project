@@ -148,7 +148,7 @@ Based on the time series extracted in the previous step, I computed Pearson corr
 
 To investigate differences in functional connectivity strength among the three RSNs within each ROI, I first performed a Friedman test, a non-parametric alternative to repeated-measures ANOVA. This was followed by pairwise Wilcoxon signed-rank tests as post-hoc comparisons.
 
-* For ROI 1, the correlation with the Salience Network (SN) was significantly higher than with the Default Mode Network (DMN) (p = .031).
+* For ROI 1, the correlation with the SN was significantly higher than with the DMN (p = .031).
 * For ROI 2, the correlation with SN was significantly higher than with both DMN and FPN (p = .031 for both comparisons).
     * No significant difference was found between DMN and FPN within ROI 2 (p = .313).
 
@@ -171,7 +171,7 @@ However, the results revealed no significant correlations between these variable
 ## Conclusion and acknowledgement
 
 ### Conclusion
-This project represents my first hands-on experience with resting-state fMRI analysis, from constructing task-defined ROIs to computing functional connectivity with large-scale brain networks. By combining task-based and resting-state data from the SMN4Lang dataset, I was able to identify language-related brain regions and examine how they interact with the Default Mode Network (DMN), Frontoparietal Network (FPN), and Salience Network (SN) during rest.
+This project represents my first hands-on experience with resting-state fMRI analysis, from constructing task-defined ROIs to computing functional connectivity with large-scale brain networks. By combining task-based and resting-state data from the SMN4Lang dataset, I was able to identify language-related brain regions and examine how they interact with the DMN, FPN, and SN during rest.
 
 Although the connectivity patterns did not show significant associations with behavioral or demographic factors, the results provided a valuable starting point for understanding individual differences in language network integration. The entire workflow—from time series extraction to statistical testing—helped solidify my understanding of neuroimaging pipelines and taught me to approach brain data with both caution and curiosity.
 
@@ -179,7 +179,7 @@ Although the connectivity patterns did not show significant associations with be
 
 In the nights leading up to my final project presentation, I found myself stuck in endless cycles of trial and error, painfully wondering why I had chosen this course at the beginning of the semester. But looking back now, I realize how much I’ve truly gained from this journey.
 
-I am deeply grateful for the Brainhack School (BHS) modules, which laid the foundation for everything that followed. As someone with no programming background, I found the step-by-step guidance—starting from bash and GitHub setup, through DataLad and OpenNeuro, and eventually into more advanced analysis—indispensable. The structured progression allowed me to gradually build a coherent understanding of brain data analysis.
+I am deeply grateful for the Brainhack School modules, which laid the foundation for everything that followed. As someone with no programming background, I found the step-by-step guidance—starting from bash and GitHub setup, through DataLad and OpenNeuro, and eventually into more advanced analysis—indispensable. The structured progression allowed me to gradually build a coherent understanding of brain data analysis.
 
 I also want to thank the BHS instructors and TAs for creating such an open and supportive learning environment. Their encouragement and flexibility made it possible for us to freely explore topics that genuinely interested us.
 
