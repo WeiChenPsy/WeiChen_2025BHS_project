@@ -96,12 +96,6 @@ For the resting-state network (RSN) masks, I used the Yeo 7-network atlas as a r
 ![ROI 1](/Results/mask_task_defined_roi/roi1_plot.png)
 **ROI 2**
 ![ROI 2](/Results/mask_task_defined_roi/roi2_plot.png)
-**RSN DMN**
-![RSN DMN](/Results/mask_Yeo_atlas_rsn/rsn_dmn_plot.png)
-**RSN FPN**
-![RSN FPN](/Results/mask_Yeo_atlas_rsn/rsn_fpn_plot.png)
-**RSN SN**
-![RSN SN](/Results/mask_Yeo_atlas_rsn/rsn_sn_plot.png)
 
 **Related Code**
 [First-level GLM](/Code/smn4lang_1st_lvl_glm.ipynb)
